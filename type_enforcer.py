@@ -29,5 +29,6 @@ class ArgumentChecker:
         return wrapper
  
 if __name__ == '__main__':
+    # TODO: write test cases
     @ArgumentChecker.arg_check_decorator
     def f(a:int,b:dict,c:int=0): print("PASSED")
